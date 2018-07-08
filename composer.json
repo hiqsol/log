@@ -1,0 +1,41 @@
+{
+    "name": "hiqsol/log",
+    "type": "library",
+    "description": "Log",
+    "keywords": [
+        "log"
+    ],
+    "homepage": "https://github.com/hiqsol/log",
+    "license": "BSD-3-Clause",
+    "support": {
+        "email": "sol@hiqdev.com",
+        "source": "https://github.com/hiqsol/log",
+        "issues": "https://github.com/hiqsol/log/issues",
+        "wiki": "https://github.com/hiqsol/log/wiki"
+    },
+    "authors": [
+        {
+            "name": "Andrii Vasyliev",
+            "email": "sol@hiqdev.com",
+            "homepage": "http://hiqdev.com/"
+        }
+    ],
+    "require": {
+        "psr/log": "^1.0"
+    },
+    "require-dev": {
+        "hiqdev/hidev-php": "<2.0 || dev-master",
+        "hiqsol/hidev-hiqsol": "<2.0 || dev-master"
+    },
+    "extra": {
+        "config-plugin": {
+            "params": "src/config/params.php",
+            "common": "src/config/common.php"
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "yii\\log\\": "src"
+        }
+    }
+}

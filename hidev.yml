@@ -1,0 +1,7 @@
+package:
+    type:       library
+    name:       log
+    title:      Log
+    headline:   Log
+    keywords:   log
+    license:    BSD-3-Clause
